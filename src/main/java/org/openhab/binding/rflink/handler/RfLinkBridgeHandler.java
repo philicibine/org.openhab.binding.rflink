@@ -30,7 +30,7 @@ import org.openhab.binding.rflink.internal.DeviceMessageListener;
 import org.openhab.binding.rflink.messages.RfLinkMessage;
 import org.openhab.binding.rflink.messages.RfLinkMessageFactory;
 import org.openhab.binding.rflink.messages.RfLinkRawMessage;
-import org.openhab.core.io.transport.serial.SerialPortManager;
+import org.openhab.core.io.transport.serial.javacomm.SerialPortManager;
 import org.openhab.core.library.types.StringType;
 import org.openhab.core.thing.Bridge;
 import org.openhab.core.thing.ChannelUID;
